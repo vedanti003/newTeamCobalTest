@@ -1,29 +1,27 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './components/Home';
+import Navigation from './components/Navbar';
 import Vedanti from './pages/Vedanti';
-
-// Import other pages/components as needed
 
 const App = () => {
   return (
-
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/vedanti" element={<Vedanti />} />
-         {/* <Route path="/lavanya" component={Lavanya} /> */}
+      <div>
+        <Switch>
+            <Navigation/>
+          <Route exact path="/" component={Home} />
+          <Route path="/vedanti" component={Vedanti} />
+          {/* <Route path="/lavanya" component={Lavanya} /> */}
           {/* <Route path="/rajsekhar" component={Rajsekhar} /> */}
           {/* <Route path="/rushali" component={Rushali} /> */}
           {/* <Route path="/sudhanshu" component={Sudhanshu} /> */}
           {/* <Route path="/sangeeta" component={Sangeeta} /> */}
           {/* <Route path="/rudra" component={Rudra} /> */}
           {/* <Route path="/kaushal" component={Kaushal} /> */}
-
-          {/* uncomment your named routes here and create your own page in pages folder  */}
-      </Routes>
+        </Switch>
+      </div>
     </Router>
-          
   );
 };
 
