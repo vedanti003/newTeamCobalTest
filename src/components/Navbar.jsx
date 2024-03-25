@@ -8,7 +8,7 @@ function Navbar() {
       <Link to="/vedanti">Vedanti</Link>
       <Link to="/lavanya">Lavanya</Link>
       {/* <Link to="/rajsekhar">Rajsekhar</Link> */}
-      {/* <Link to="/rushali">Rushali</Link> */}
+      <Link to="/rushali">Rushali</Link>
       {/* <Link to="/sudhanshu">Sudhanshu</Link> */}
       {/* <Link to="/sangeeta">Sangeeta</Link> */}
       {/* <Link to="/rudra">Rudra</Link> */}
