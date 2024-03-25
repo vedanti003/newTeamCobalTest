@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Vedanti from './pages/Vedanti';
 import Lavanya from './pages/Lavanya';
+import Rudra from './pages/Rudra';
+
 
 // Import other pages/components as needed
 
@@ -18,7 +20,7 @@ const App = () => {
           {/* <Route path="/rushali" component={Rushali} /> */}
           {/* <Route path="/sudhanshu" component={Sudhanshu} /> */}
           {/* <Route path="/sangeeta" component={Sangeeta} /> */}
-          {/* <Route path="/rudra" component={Rudra} /> */}
+          <Route path="/rudra" element={<Rudra />} /> 
           {/* <Route path="/kaushal" component={Kaushal} /> */}
 
           {/* uncomment your named routes here and create your own page in pages folder  */}
