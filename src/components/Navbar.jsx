@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'; 
+import Kaushal from '../pages/Kaushal';
 function Navbar() {
   return (
     <div className="navbar">
@@ -12,7 +13,7 @@ function Navbar() {
       {/* <Link to="/sudhanshu">Sudhanshu</Link> */}
       {/* <Link to="/sangeeta">Sangeeta</Link> */}
       {/* <Link to="/rudra">Rudra</Link> */}
-      {/* <Link to="/kaushal">Kaushal</Link> */}
+      <Link to="/kaushal">Kaushal</Link> 
 
       {/* uncomment your named links and and make a page in pages folder by your name */}
     </div>

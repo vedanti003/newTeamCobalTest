@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Vedanti from './pages/Vedanti';
+import Kaushal from './pages/Kaushal';
 
 // Import other pages/components as needed
 
@@ -18,7 +19,7 @@ const App = () => {
           {/* <Route path="/sudhanshu" component={Sudhanshu} /> */}
           {/* <Route path="/sangeeta" component={Sangeeta} /> */}
           {/* <Route path="/rudra" component={Rudra} /> */}
-          {/* <Route path="/kaushal" component={Kaushal} /> */}
+           <Route path="/kaushal" element={<Kaushal/> }/> 
 
           {/* uncomment your named routes here and create your own page in pages folder  */}
       </Routes>
