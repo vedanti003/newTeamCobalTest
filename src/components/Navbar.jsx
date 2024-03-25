@@ -10,7 +10,7 @@ function Navbar() {
       {/* <Link to="/rajsekhar">Rajsekhar</Link> */}
       {/* <Link to="/rushali">Rushali</Link> */}
       {/* <Link to="/sudhanshu">Sudhanshu</Link> */}
-      {/* <Link to="/sangeeta">Sangeeta</Link> */}
+      <Link to="/sangeeta">Sangeeta</Link>
       {/* <Link to="/rudra">Rudra</Link> */}
       {/* <Link to="/kaushal">Kaushal</Link> */}
 
