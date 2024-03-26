@@ -4,7 +4,7 @@ function Kaushal() {
   return (
     <div>
       <Navbar/>
-      <h1>Hii KAushal </h1>
+      <h1>Hii Kaushal </h1>
     </div>
   )
 }

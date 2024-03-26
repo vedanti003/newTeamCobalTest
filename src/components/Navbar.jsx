@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'; 
-import Kaushal from '../pages/Kaushal';
+
 function Navbar() {
   return (
     <div className="navbar">

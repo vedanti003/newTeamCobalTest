@@ -7,11 +7,10 @@ import Rushali from "./pages/Rushali";
 import Sangeeta from "./pages/Sangeeta";
 import Rudra from "./pages/Rudra";
 import Sudhanshu from "./pages/Sudhanshu";
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Vedanti from './pages/Vedanti';
-import Kaushal from './pages/Kaushal';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import Home from './pages/Home';
+// import Vedanti from './pages/Vedanti';
+ import Kaushal from './pages/Kaushal';
 
 // Import other pages/components as needed
 
@@ -31,7 +30,7 @@ const App = () => {
         {/* <Route path="/rudra" component={Rudra} /> */}
         {/* <Route path="/sangeeta" component={Sangeeta} /> */}
         <Route path="/rudra" element={<Rudra />} />
-        <Route path="/kaushal" component={Kaushal} />
+        <Route path="/kaushal" element={<Kaushal/>} />
          {/* <Route path="/lavanya" component={Lavanya} /> */}
           {/* <Route path="/rajsekhar" component={Rajsekhar} /> */}
           {/* <Route path="/rushali" component={Rushali} /> */}
