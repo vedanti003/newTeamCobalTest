@@ -31,7 +31,7 @@ const App = () => {
         {/* <Route path="/rudra" component={Rudra} /> */}
         {/* <Route path="/sangeeta" component={Sangeeta} /> */}
         <Route path="/rudra" element={<Rudra />} />
-        {/* <Route path="/kaushal" component={Kaushal} /> */}
+        <Route path="/kaushal" component={Kaushal} />
          {/* <Route path="/lavanya" component={Lavanya} /> */}
           {/* <Route path="/rajsekhar" component={Rajsekhar} /> */}
           {/* <Route path="/rushali" component={Rushali} /> */}
