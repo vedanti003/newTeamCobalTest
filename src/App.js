@@ -7,6 +7,7 @@ import Rushali from "./pages/Rushali";
 import Sangeeta from "./pages/Sangeeta";
 import Rudra from "./pages/Rudra";
 import Sudhanshu from "./pages/Sudhanshu";
+import Rajsekhar from "./pages/Rajsekhar";
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Home from './pages/Home';
 // import Vedanti from './pages/Vedanti';
@@ -23,7 +24,7 @@ const App = () => {
         <Route path="/lavanya" element={<Lavanya />} />
 
         {/* <Route path="/lavanya" component={Lavanya} /> */}
-        {/* <Route path="/rajsekhar" component={Rajsekhar} /> */}
+        <Route path="/rajsekhar" element={<Rajsekhar/>} />
         <Route path="/rushali" element={<Rushali />} />
         <Route path="/sudhanshu" element={<Sudhanshu />} />
         <Route path="/sangeeta" element={<Sangeeta />} />
